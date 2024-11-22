@@ -33,8 +33,8 @@ resource "google_compute_router_nat" "nat_gateway" {
 }
 
 # Globalny adres IP
-resource "google_compute_global_address" "ip_address" {
-  project = var.project_id
-  address_type = "EXTERNAL"
-  name = var.external_ip_name
-}
+# resource "google_compute_global_address" "ip_address" {
+#  project = var.project_id
+#  address_type = "EXTERNAL"
+#  name = var.external_ip_name
+# }
